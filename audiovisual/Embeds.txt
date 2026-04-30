@@ -1,0 +1,5 @@
+Como parte de mi contenido audiovisual, he incluido por el uso de <iframe> videos de youtube, TikTok e incluso google maps relacionados a sus secciones pertinentes.
+
+Google Maps, mapa de fajardo, index.html
+Youtube, himno de Fajardo, index.html
+TikTok, más restaurantes, gastronomia.html
