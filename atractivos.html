@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Fabián Vega #802224327
+    4/27/2026
+    Asignación 9: Proyecto Pueblo: Fajardo-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fajardo.css">
+    <title>Fajardo, Puerto Rico - Atractivos</title>
+</head>
+
+<body>
+    <header class="header no-margin">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-text">Visita <span class="logo__bold">Fajardo </span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="atractivos.html" class="enlace_nav">Atractivos</a>
+                    <a href="gastronomia.html" class="enlace_nav">Gastronomía</a>
+                    <a href="contacto.html" class="enlace_nav">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__text">
+            <h2 class="no-margin">¡Tu Destino Favorito!</h2>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main> <!-- tres artículos de atractivos turísticos -->
+            <h3 class="centrar-text no-margin">Atractivos Turísticos</h3>
+            <div class="contenido-principal__text">
+                <p class="centrar-text no-margin">¡<span class="fajardo">Fajardo</span> te espera!</p>
+                <p class="centrar-text no-margin">Donde el sol nace en Puerto Rico. Explora la ciudad de las marinas y los atardeceres inolvidables.</p>
+                <p class="centrar-text no-margin">Arte, sabor y mar en un solo lugar.</p>
+            </div>
+
+
+            <article class="atractivo">
+                <div class="atractivo__imagen">
+                    <picture>
+                        <img src="img/catedral.webp" alt="Imagen Catedral Santiago Apóstol">
+                    </picture>
+                </div>
+                <div class="atractivo__contenido">
+                    <h4 class="no-margin">Catedral Santiago Apóstol</h4>
+                    <p class="no-margin">Según los datos más antiguos del Archivo Parroquial, fue fundada en el año 1766
+                         y el 18 de septiembre de 1984 fue incluida en el Registro Nacional de Lugares Históricos del Servicio 
+                         de Parques Nacionales adscrito al Dep.Del Interior de los E.U de Norte América. En el 2008 el padre Benedicto 
+                         XVI erigió la Diócesis de Fajardo-Humacao designando como Catedral de dicha diócesis a la Parroquia Santiago Apóstol 
+                         de Fajardo.</p>
+                    <a href="https://www.diocesisfh.com/catedralsantiagoapostol" target="_blank" class="boton boton--primario">Más Información</a>
+                </div>
+            </article>
+
+
+            <article class="atractivo">
+                <div class="atractivo__imagen">
+                    <picture>
+                        <img src="img/reserva.webp" alt="Reserva Natural de Las Cabezas de San Juan">
+                    </picture>
+                </div>
+                <div class="atractivo__contenido">
+                    <h4 class="no-margin">Reserva Natural de Las Cabezas de San Juan</h4>
+                    <p class="no-margin">Se ofrece allí una excursión llamada “Observación de Aves con un Propósito” en la que los visitantes aprenden a 
+                        identificar las aves por su canto. Es una oportunidad de disfrutar la observación de aves en varios ecosistemas. La excursión 
+                        incluye visita a un manglar, la playa y un faro activo, donde puede escalar sus estrechas escaleras y disfrutar las vistas 
+                        panorámicas de la costa este y, a la distancia, la isla de St. Thomas. La reserva natural de Las Cabezas de San Juan está localizada 
+                        cerca de Seven Seas Beach y es un sitio digno de visitar.</p>
+                    <a href="https://www.paralanaturaleza.org/centros/cabezas-san-juan" target="_blank" class="boton boton--primario">Más información</a>
+                </div>
+            </article>
+
+
+            <article class="atractivo">
+                <div class="atractivo__imagen">
+                    <picture>
+                        <img src="img/biolumi.webp" alt="Bahía Bioluminiscente (Laguna Grande)">
+                    </picture>
+                </div>
+                <div class="atractivo__contenido">
+                    <h4 class="no-margin">Bahía Bioluminiscente (Laguna Grande)</h4>
+                    <p class="no-margin">Llegar es fácil. Puede conducir hasta la rampa para barcos al final de la Ruta 987, 
+                        donde se reunirá con sus guías turísticos. Las excursiones comienzan al anochecer con una vigorosa travesía en kayak a través de 
+                        un manglar, rumbo a una amplia y tranquila bahía. De pronto, comenzará a ver que todo lo que se mueva en el agua. Visitar nuestra 
+                        bahía bioluminiscente es una experiencia inolvidable que se destaca entre las muchas excursiones a través de Puerto Rico.</p>
+                    <a href="https://kayakingpuertorico.com/home/tours/bio-bay-kayak-tour/" target="_blank" class="boton boton--primario">Más información</a>
+                </div>
+            </article>
+
+
+        </main>
+        <aside class="sidebar"> <!-- recorridos temáticos con precio, botón y gif animado -->
+            <h3 class="centrar-text no-margin">Recorridos Temáticos</h3>
+            <ul class="rutas no-padding">
+                <li class="widget-ruta">
+                    <h4 class="no-margin">Snorkel y Tobogán</h4>
+                    <p class="widget-ruta__label">Precio:
+                        <span class="widget-ruta__info">a partir de $135 por adulto</span>
+                    </p>
+                    <a href="https://www.tripadvisor.com/AttractionProductReview-g612474-d15140529-All_Inclusive_Snorkel_and_Slide_Boat_Tour_Icacos_or_Vieques-Fajardo_Puerto_Rico.html" target="_blank" class="boton boton--secundario">Detalles</a>
+                    <picture>
+                        <img src="audiovisual/snork.gif" alt="Snorkling">
+                    </picture>
+                </li>
+                <li class="widget-ruta">
+                    <h4 class="no-margin">Coquí Water Park</h4>
+                    <p class="widget-ruta__label">Precio:
+                        <span class="widget-ruta__info">Varía</span>
+                    </p>
+                    <a href="https://www.tripadvisor.es/Attraction_Review-g612474-d4763240-Reviews-Coqui_Water_Park-Fajardo_Puerto_Rico.html" target="_blank" class="boton boton--secundario">Detalles</a>
+                    <picture>
+                        <img src="audiovisual/waterpark.gif" alt="Waterpark">
+                    </picture> 
+                </li>
+                <li class="widget-ruta">
+                    <h4 class="no-margin">Playa Seven Seas</h4>
+                    <p class="widget-ruta__label">Precio:
+                        <span class="widget-ruta__info">Libre de Costo</span>
+                    </p>
+                    <a href="https://www.tripadvisor.es/Attraction_Review-g13355887-d149639-Reviews-Playa_Seven_Seas-Las_Croabas_Fajardo_Puerto_Rico.html" target="_blank" class="boton boton--secundario">Detalles</a>
+                    <picture>
+                        <img src="audiovisual/beach.gif" alt="Playa Animada">
+                    </picture>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="no-padding contenedor">
+            <div class="no-padding barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-text logo__bold">Fajardo</h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="atractivos.html" class="enlace_nav">Atractivos</a>
+                    <a href="gastronomia.html" class="enlace_nav">Gastronomía</a>
+                    <a href="contacto.html" class="enlace_nav">Contacto</a>
+                </nav>
+            </div>
+            <ul class="social-menu no-padding">
+                <li><a href="https://www.facebook.com/fajardopr.org" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://x.com/EnjoyFajardo" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/municipiodefajardo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i> </a></li>
+                <li><a href="https://www.youtube.com/results?search_query=fajardo+pr" target="_blank"><i class="fab fa-youtube"></i> </a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Fabián Vega #802224327
+    4/27/2026
+    Asignación 9: Proyecto Pueblo: Fajardo-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- 0 = normal, 1 = italic | cambié los pesos y variantes para que fuesen solo los que usé-->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fajardo.css">
+    <title>Fajardo, Puerto Rico - Home</title>
+</head>
+
+<body>
+    <header class="header no-margin"> <!-- imagen de fondo, nav y 'logo' -->
+        <div class="contenedor">
+
+            <div class="barra"> <!-- 'logo' a la izq, nav a la der -->
+
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-text">Visita <span class="logo__bold">Fajardo </span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="atractivos.html" class="enlace_nav">Atractivos</a>
+                    <a href="gastronomia.html" class="enlace_nav">Gastronomía</a>
+                    <a href="contacto.html" class="enlace_nav">Contacto</a>
+                </nav>
+
+            </div>
+
+        </div>
+
+
+        <div class="header__text">
+            <h2 class="no-margin">¡Tu Destino Favorito!</h2>
+        </div>
+    </header>
+
+
+    <div class="contenedor main__text">
+
+        <main>
+            <h2 class="no-margin">Nuestro Municipio</h2>
+            <p class="no-margin"><span class="fajardo">Fajardo</span> se encuentra en el extremo este de Puerto Rico, 
+                a solo 45 minutos del aeropuerto Internacional Luis Muñoz Marín (SJU). Sus hermosas playas, sorprendentes 
+                reservas naturales, impresionantes marinas, elegantes hoteles y exquisita gastronomía hacen de esta ciudad 
+                el destino perfecto para vacacionar. </p>
+            <p class="no-margin"><span class="fajardo">Fajardo</span> es hogar de Laguna Grande, la bahía bioluminiscente más visitada de Puerto Rico, 
+                Marina Puerto del Rey, la marina más grande del Caribe y la Reserva Natural Cabezas de San Juan, dedicada 
+                a la conservación de ecosistemas.</p>
+            <p class="no-margin"> Los invitamos a conocer, descubrir y disfrutar todos los ofrecimientos y servicios 
+                gubernamentales de excelencia que Fajardo tiene para ti. ¡Te esperamos! </p>
+
+            <div id="map"> <!-- embed mapa-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24752.439881859307!2d-65.67221678090598!3d18.33409794579798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c04978e84c473dd%3A0x83c77af112476ff0!2sFajardo!5e0!3m2!1sen!2spr!4v1777500940398!5m2!1sen!2spr" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <h3 class="no-margin">Personas Ilustres</h3>
+
+            <div class="personas"> <!-- link sale debajo en movil, link sale al lado en desktop (1024px) -->
+
+                <ul class="no-margin">
+                    <li><strong>Antonio Valero de Bernabé (1790 - 1863):</strong>&nbsp; <i>General | Libertador | Defensor de la Independencia de España</i></li>
+                    <li><strong>Eugenio Benítez Castaño (1878 - 1918):</strong>&nbsp; <i>Insigne Abogado | Escritor Puertorriqueño</i></li>
+                    <li><strong>Antonio R. Barceló (1868 - 1938):</strong>&nbsp; <i>Primer Presidente del Senado de Puerto Rico</i></li>
+                    <li><strong>Isabel Andreu de Aguilar (1897 - 1948):</strong>&nbsp; <i>Educadora | Política | Sufragista | Líder Cívica Puertorriqueña</i></li>
+                    <li><strong>Emilio S. Belaval (1903 - 1972):</strong>&nbsp; <i>Escritor | Ensayista | Juez | Dramaturgo | Cuentista | Periodista</i></li>
+                    <li><strong>Carmelina Vizcarrondo (1906 - 1983):</strong>&nbsp; <i>Escritora y Poetisa</i></li>
+                    <li><strong>Dra. Antonia Coello Novello (1944 - Presente):</strong>&nbsp; <i>Parte del libro 100 mujeres americanas que cambiaron el mundo</i></li>
+                </ul>
+                <a href="https://fajardopr.org/sonfajardenos" target="_blank" class= "famous">¡Conoce a Muchos Más!</a>
+
+            </div>
+
+            <br>
+
+            <h3 class="no-margin">Bandera y Escudo</h3>
+
+            <div class="bandera"> <!--imagen + texto lado a lado -->
+                <img src="img/bandera.webp" alt="Bandera de Fajardo">
+                <p>De tipo rectangular, tricolor, compuesta de tres franjas. La primera superior de gules (rojo) simbolizando el color de la bordura del escudo. 
+                    La segunda de centro de blanco (plata) simbolizando el color de las piezas principales que aparecen en blasón y su corona. La tercera inferior 
+                    de azul simbolizando el color del cielo y el mar de Fajardo. Al centro el escudo oficial de la Villa en sus colores naturales.</p>
+            </div>
+
+            <div class="escudo"> <!--imagen + texto lado a lado -->
+
+                <p>Blasón de forma cuadrilonga, redondeado en su forma inferior y timbrado de corona mural de tres piezas (torres). Trae por soportes, dos delfines y 
+                    debajo de la base un volante con una inscripción SANTIAGO DE FAJARDO. El azul representa el color del cielo y el mar en Puerto Rico y en heráldica 
+                    simboliza el zafiro y su significado es: justicia, vigilancia, recreación, celo y lealtad de sus ciudadanos. El plata se manifiesta también por el 
+                    color blanco y simboliza a la perla. </p>
+                <img src="img/escudo.webp" alt="Escudo de Fajardo">
+
+            </div>
+
+            <br>
+            <br>
+
+            <h3 class="no-margin centrar-text">Himno de Fajardo</h3>
+
+            <div class="himno"> <!--embed youtube-->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GA805N6bDGM?si=8vzFSvOoMjcSF5vL" 
+                title="YouTube video player"  
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+                </iframe>
+            </div>
+            
+        </main>
+    </div>
+
+    <footer class="footer"> <!--repite nav, incluye iconos de redes sociales -->
+        <div class="no-padding contenedor">
+
+            <div class="no-padding barra">
+
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-text logo__bold">Fajardo</h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="atractivos.html" class="enlace_nav">Atractivos</a>
+                    <a href="gastronomia.html" class="enlace_nav">Gastronomía</a>
+                    <a href="contacto.html" class="enlace_nav">Contacto</a>
+                </nav>
+
+            </div>
+
+            <ul class="social-menu no-padding"> <!-- iconos de redes -->
+                <li><a href="https://www.facebook.com/fajardopr.org" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://x.com/EnjoyFajardo" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/municipiodefajardo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i> </a></li>
+                <li><a href="https://www.youtube.com/results?search_query=fajardo+pr" target="_blank"><i class="fab fa-youtube"></i> </a></li>
+            </ul>
+
+        </div>
+    </footer>
+</body>
+</html>
